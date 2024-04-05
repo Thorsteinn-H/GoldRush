@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.layout.Pane?>
+
+<?import javafx.scene.layout.Pane?>
+<?import vidmot.Grafari?>
+<?import vidmot.Leikbord?>
+
+<?import javafx.scene.layout.HBox?>
+<VBox prefHeight="470" prefWidth="640" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="vidmot.GoldController">
+    <children>
+        <fx:include source="menu-view.fxml" fx:id="menuStyring"/>
+
+        <Leikbord focusTraversable="true" fx:id="fxLeikbord"/>
+        <HBox>
+            <children>
+                <Label alignment="CENTER" text="Stig" prefHeight="111.0" prefWidth="602.0"/>
+                <Label fx:id="fxStig" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="63.0" prefWidth="611.0"/>
+                <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="110.0" prefWidth="602.0" text="Tími eftir"/>
+                <Label fx:id="fxTimiEftir" alignment="CENTER" layoutX="220.0" layoutY="10.0" prefHeight="63.0" prefWidth="611.0"/>
+            </children>
+        </HBox>
+    </children>
+</VBox>
+
+

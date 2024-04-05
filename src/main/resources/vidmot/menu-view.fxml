@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<MenuBar xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="vidmot.MenuController">
+    <menus>
+        <Menu text="Skrá">
+            <items>
+                <MenuItem fx:id="menuItemNyrLeikur" onAction="#onNyrLeikur" text="Nýr Leikur" />
+                <MenuItem onAction="#onHaetta" text="Hætta" />
+            </items>
+        </Menu>
+        <Menu text="Erfiðleikastig">
+            <items>
+                <RadioMenuItem fx:id="radioLett" onAction="#onErfidleikastig" selected="true" text="Létt" />
+                <RadioMenuItem fx:id="radioMidlungs" onAction="#onErfidleikastig" text="Miðlungs" />
+                <RadioMenuItem fx:id="radioErfitt" onAction="#onErfidleikastig" text="Erfitt" />
+            </items>
+        </Menu>
+      <Menu mnemonicParsing="false" text="Um">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#onUmForritid" text="Um Forritið" />
+        </items>
+      </Menu>
+    </menus>
+</MenuBar>
