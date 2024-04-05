@@ -44,6 +44,12 @@ public class Leikbord extends Pane {
 
     }
 
+    public ObservableList<Gull> getGullListi() {
+        return gullListi;
+    }
+    public Grafari getFxGrafari() {
+        return fxGrafari;
+    }
     public Leikbord() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("leikbord-view.fxml"));
 

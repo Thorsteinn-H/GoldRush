@@ -36,7 +36,19 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <version>${junit.version}</version>
       <scope>test</scope>
-    </dependency>  </dependencies>
+    </dependency>
+
+
+    <!-- JUnit 4 is only needed for the "test" scope, i.e. mvn test -->
+    <!-- JUnit 4 itself depends on hamcrest, so this will be automatically added in a recursive style -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
 
   <build>
     <plugins>
