@@ -4,7 +4,6 @@
 
 
 <?import vidmot.Grafari?>
-<?import vidmot.Gull?>
 <fx:root type="javafx.scene.layout.Pane" prefHeight="400" prefWidth="500" style="-fx-border-color: black; -fx-border-width: 2px;"
          xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
 
