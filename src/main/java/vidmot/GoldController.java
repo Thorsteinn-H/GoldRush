@@ -1,24 +1,18 @@
 package vidmot;
 
 import javafx.animation.KeyFrame;
-import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.control.skin.TextInputControlSkin;
-import javafx.scene.layout.Pane;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.transform.Translate;
 import javafx.util.Duration;
 import vinnsla.Klukka;
 import vinnsla.Leikur;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class GoldController {
 
