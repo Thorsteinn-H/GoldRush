@@ -34,10 +34,6 @@ The project is structured as follows:
 - JavaFX: 15.0.1
 - OpenJDK: 11
 
-## Contributing
-
-Contributions are welcome! If you have any ideas for improvements or find any issues, feel free to open an issue or create a pull request.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
