@@ -9,7 +9,6 @@ import java.io.IOException;
 
 public class GoldApplication extends Application {
 
-
     @Override
     public void start(Stage primaryStage) throws IOException {
 
