@@ -37,3 +37,9 @@ The project is structured as follows:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+## UML Design
+
+![GoldRush drawio](https://github.com/Thorsteinn-H/GoldRush/assets/124603083/16619a5c-c1ff-49fa-bd47-746b44657971)
+
