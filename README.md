@@ -43,3 +43,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ![GoldRush drawio](https://github.com/Thorsteinn-H/GoldRush/assets/124603083/16619a5c-c1ff-49fa-bd47-746b44657971)
 
+## Building
+
+`mvn compile`
+`mvn test`
+`mvn javafx:run`
