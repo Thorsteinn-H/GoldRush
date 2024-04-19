@@ -10,9 +10,9 @@ This project is a JavaFX application for a Gold Rush game. It includes various c
     git clone https://github.com/Thorsteinn-H/GoldRush
     ```
 
-2. Open the project in your favorite Java IDE.
+2. Run run.cmd and have fun!
 
-3. Run the `GoldApplication` class to start the game.
+
 
 ## Usage
 
