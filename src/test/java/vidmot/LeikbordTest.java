@@ -23,6 +23,8 @@ public class LeikbordTest {
     public void testFramleidaGull() {
         leikbord.framleidaGull();
         assertEquals(1, leikbord.getChildren().size()-1); //-1 þarf að vera því grafarinn er í leikborði
+                                                                            // og hann telst sem child
+
         assertFalse(leikbord.getGullListi().isEmpty()); // Og kíkir hvort listinn er EKKI tómur
     }
 
